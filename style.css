@@ -14,3 +14,24 @@
   font-weight: 700;
   /* насиченість шрифта */
 }
+
+/* -------------------------------------------------------------- */
+
+.block {
+  background-color: teal;
+  background-image:/* url(./img/download-nature-background-images-1920x1080-wallpaper-preview.jpg)0 0, */ url(./img/messi-download-pictures-wallpaper-preview.jpg) /* no-repeat перебиває картинку */;
+  background-repeat: no-repeat;
+  background-position: center; /* 100px 50px; 50%; */
+  background-attachment: fixed; /* scroll */
+  background-size: 100%; /* cover;  властивість вміщає картинку в блок*/
+
+  background-image: url(./img/download-nature-background-images-1920x1080-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
+
+
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px;
+}
