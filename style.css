@@ -35,3 +35,37 @@
   border-radius: 15px;
   box-shadow: 0 0 10px;
 }
+/* -------------------------------------------------------------- */
+
+.example-block {
+  overflow: hidden; /* обрізає все що виходить за зглажений край */
+  border: 1px solid tomato; /* solid; dotted */
+  border-bottom: 3px solid green; /*границя з однії сторони */
+  border-right: none; /* прибирає вибрану сторону границі */
+
+  border-radius: 10px; /* зглажує кути границі */
+
+  outline: 10px dashed black; /* границя для всіх сторін; border-radius не діє для outline */
+
+  box-shadow: 5px 5px 10px 5px; /* тінь */
+  box-shadow: /* inset */ 5px 5px ; /* inset внутрішня тінь */
+
+  opacity: 0.5; /* прозрачність елемента*/
+
+  visibility: /* hidden */; /* скриває елемент  */
+
+  font-size: 10px;
+  margin: 0 0 30px 0;
+}
+.examle-string {
+  outline: 3px dashed gray; /* огинає рядковий тега */
+
+  /* border-radius: 50px;
+  overflow: hidden; не приміняється для рядкового тега */
+
+  font-size: 10px;
+  margin: 0 0 30px 0
+}
+.example-image {
+  border: 3px dashed teal;
+}
