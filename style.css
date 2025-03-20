@@ -69,3 +69,25 @@
 .example-image {
   border: 3px dashed teal;
 }
+/* -------------------------------------------------------------- */
+
+.example-block {
+  /* width: 500px; */
+  /* max-width: 500px; */
+  /* min-width: 500px;
+
+  height: 200px; */
+
+  box-sizing: border-box;
+
+  border: 5px solid black;
+}
+.examle-string {
+  width: 500px; /* на рядковий тег не приміняється */
+  height: 100px; /* не пртміняється */
+}
+.example-image {
+  width: 100%;
+  min-width: 100px;
+  height: 100px;
+}
