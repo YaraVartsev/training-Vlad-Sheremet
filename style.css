@@ -1,0 +1,16 @@
+.fontFamely {
+  font-family: Arial, Helvetica, sans-serif;
+  /* сімейство шрифтів */
+}
+.fontSize {
+  font-size: 20px;
+  /* розмір шрифта */
+}
+.fontStyle {
+  font-style: italic;
+  /* курсивність шрифта */
+}
+.fontWeight {
+  font-weight: 700;
+  /* насиченість шрифта */
+}
